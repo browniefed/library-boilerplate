@@ -1,5 +1,5 @@
 import expect from 'expect';
-import { add } from '../src';
+import add from '../src';
 
 describe('add', () => {
   it('should add 2 and 2', () => {

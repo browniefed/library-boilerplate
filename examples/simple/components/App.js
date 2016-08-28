@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import { add } from 'library-boilerplate';
+import React from 'react';
+// eslint-disable-next-line import/no-unresolved, import/no-extraneous-dependencies
+import add from 'library-boilerplate';
 
-export default class App extends Component {
-  render() {
-    return (
-      <p>
-        2 + 2 = {add(2, 2)}
-      </p>
-    );
-  }
-}
+const App = () => (
+  <p>
+    2 + 2 = {add(2, 2)}
+  </p>
+);
+
+export default App;
